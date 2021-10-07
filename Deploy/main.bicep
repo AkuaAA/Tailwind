@@ -22,7 +22,7 @@ var objectId = 'f5cccb74-8917-4be6-9bb4-02f254bb2729'
 
   "clientSecret": "ZFmE37VkO7PaBLD~sh6qlsSzXyPxH37awn", 
 
-  "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47" 
+  "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
 
 "subscriptionId": "f7f87330-1754-4aa5-9abd-0bd1626aa71d" 
 
