@@ -10,23 +10,7 @@ var acr_name_var = 'ttacr${uniqueString(resourceGroup().id)}'
 var deployment_slot_name = 'staging'
 var acr_password_var = 'acrPassword'
 var keyvault_name_var = 'ttkv${uniqueString(resourceGroup().id)}'
-var objectId = '7567ff67-3589-4cd6-a42c-9a6e8cb60e0f'
-var objectId = 'f5cccb74-8917-4be6-9bb4-02f254bb2729'
- { 
-
-  "clientId": "f2866692-6a93-48d2-bf2d-b2b13d68d3b1", 
-
-  "displayName": "azure-cli-2021-10-07-14-17-36", 
-
-  "name": "f2866692-6a93-48d2-bf2d-b2b13d68d3b1", 
-
-  "clientSecret": "ZFmE37VkO7PaBLD~sh6qlsSzXyPxH37awn", 
-
-  "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-
-"subscriptionId": "f7f87330-1754-4aa5-9abd-0bd1626aa71d" 
-
-}  
+var objectId = ''
 resource acr_name 'Microsoft.ContainerRegistry/registries@2017-10-01' = {
   name: acr_name_var
   location: resourceGroup().location
